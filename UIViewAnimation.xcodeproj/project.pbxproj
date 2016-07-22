@@ -15,6 +15,7 @@
 		025EA5A61D421A7F005D06C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025EA5A41D421A7F005D06C1 /* LaunchScreen.storyboard */; };
 		025EA5B11D421A7F005D06C1 /* UIViewAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 025EA5B01D421A7F005D06C1 /* UIViewAnimationTests.m */; };
 		025EA5BC1D421A7F005D06C1 /* UIViewAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 025EA5BB1D421A7F005D06C1 /* UIViewAnimationUITests.m */; };
+		025EA5CB1D421E6B005D06C1 /* UIView+ZRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 025EA5CA1D421E6B005D06C1 /* UIView+ZRCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		025EA5B71D421A7F005D06C1 /* UIViewAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIViewAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		025EA5BB1D421A7F005D06C1 /* UIViewAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewAnimationUITests.m; sourceTree = "<group>"; };
 		025EA5BD1D421A7F005D06C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		025EA5C91D421E6B005D06C1 /* UIView+ZRCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZRCategory.h"; sourceTree = "<group>"; };
+		025EA5CA1D421E6B005D06C1 /* UIView+ZRCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZRCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				025EA59A1D421A7F005D06C1 /* AppDelegate.m */,
 				025EA59C1D421A7F005D06C1 /* ViewController.h */,
 				025EA59D1D421A7F005D06C1 /* ViewController.m */,
+				025EA5C91D421E6B005D06C1 /* UIView+ZRCategory.h */,
+				025EA5CA1D421E6B005D06C1 /* UIView+ZRCategory.m */,
 				025EA59F1D421A7F005D06C1 /* Main.storyboard */,
 				025EA5A21D421A7F005D06C1 /* Assets.xcassets */,
 				025EA5A41D421A7F005D06C1 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				025EA5CB1D421E6B005D06C1 /* UIView+ZRCategory.m in Sources */,
 				025EA59E1D421A7F005D06C1 /* ViewController.m in Sources */,
 				025EA59B1D421A7F005D06C1 /* AppDelegate.m in Sources */,
 				025EA5981D421A7F005D06C1 /* main.m in Sources */,
